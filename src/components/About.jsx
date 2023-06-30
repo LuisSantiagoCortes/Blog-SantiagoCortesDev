@@ -30,19 +30,24 @@ const About = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Acerca de mi</p>
+        <h2 className={styles.sectionHeadText}>¿Quién Soy?.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Soy ingeniero mecatrónico y me especializo en administrar los servidores en la nube de AWS (Linux) para garantizar una alta disponibilidad y escalabilidad de los servicios. Mi pasión por el aprendizaje y mi interés en proyectos con impacto en Latinoamérica me llevan a involucrarme desde la planeación, diseño, prototipado y puesta en marcha, además, mi experiencia en el desarrollo de software y maquinaria industrial, combinada con mi formación en ingeniería mecatrónica, me permite abordar problemas desde una perspectiva integral, mejorando la calidad del software y la integración del hardware (IoT, IIoT). Me apasiona crear soluciones eficientes y efectivas para problemas complejos, y estoy siempre en busca de nuevos desafíos para seguir creciendo profesionalmente.
+      </motion.p>
+
+      <motion.div variants={textVariant()}>
+        <h2 className={styles.sectionHeadText}>¿Qué encontrarás en el blog?.</h2>
+      </motion.div>
+
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+        Soy ingeniero mecatrónico y me especializo en administrar los servidores en la nube de AWS (Linux) para garantizar una alta disponibilidad y escalabilidad de los servicios. Mi pasión por el aprendizaje y mi interés en proyectos con impacto en Latinoamérica me llevan a involucrarme desde la planeación, diseño, prototipado y puesta en marcha, además, mi experiencia en el desarrollo de software y maquinaria industrial, combinada con mi formación en ingeniería mecatrónica, me permite abordar problemas desde una perspectiva integral, mejorando la calidad del software y la integración del hardware (IoT, IIoT). Me apasiona crear soluciones eficientes y efectivas para problemas complejos, y estoy siempre en busca de nuevos desafíos para seguir creciendo profesionalmente.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
