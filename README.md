@@ -2,7 +2,7 @@
 
 Dede de instalar o actualizar su computadora a la versión `16.0.0` 
 
- - [link de apoyo]:(https://nodejs.org/en/download)
+ - [link de apoyo](https://nodejs.org/en/download)
 
 ## Comandos para ejecutar el codigo
 
