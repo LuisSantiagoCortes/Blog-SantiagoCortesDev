@@ -1,8 +1,10 @@
+# Pasos a seguir
+
 ## Prerrequisitos de node 
 
 Dede de instalar o actualizar su computadora a la versión `16.0.0` 
 
- - [link de apoyo](https://nodejs.org/en/download)
+ - [Link de apoyo](https://nodejs.org/en/download)
 
 ## Comandos para ejecutar el codigo
 
@@ -32,6 +34,9 @@ Dede de instalar o actualizar su computadora a la versión `16.0.0`
     ```
     npm run serve
     ```
+## Links de apoyo React
+
+ - [Link de apoyo](https://www.youtube.com/watch?v=YlD2FvLCOLw)
 
 ## Reconocimientos
 

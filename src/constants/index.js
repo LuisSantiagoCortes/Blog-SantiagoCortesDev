@@ -32,15 +32,15 @@ import {
 export const navLinks = [
   {
     id: 'about',
-    title: 'About',
+    title: 'Acerca de mi',
   },
   {
     id: 'projects',
-    title: 'Projects',
+    title: 'Proyectos',
   },
   {
     id: 'contact',
-    title: 'Contact',
+    title: 'Contacto',
   },
 ];
 
@@ -172,9 +172,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    // image: komikult,
+    // repo: 'https://github.com/shaqdeff/KomiKult',
+    // demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {
     id: 'project-2',
