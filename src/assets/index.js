@@ -3,10 +3,10 @@ import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/Electronics.png';
 
-import logo from './logo/logo-black.png';
-import logotext from './logo/logo-text-black.png';
+import logo from './logo/scd-logo.png';
+import logotext from './logo/scd-text.png';
 
-import shaq from './personal/image_santiago1.png';
+import scd from './personal/image_santiago.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -57,7 +57,7 @@ export {
   worldmap,
   logo,
   logotext,
-  shaq,
+  scd,
   backend,
   ux,
   frontend,
