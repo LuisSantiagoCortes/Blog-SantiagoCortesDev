@@ -3,8 +3,8 @@ import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/Electronics.png';
 
-import logo from './logo/scd-logo.png';
-import logotext from './logo/scd-text.png';
+import logo from './logo/logo-scd.png';
+import logotext from './logo/SantiagoCortesdev.png';
 
 import scd from './personal/image_santiago.png';
 

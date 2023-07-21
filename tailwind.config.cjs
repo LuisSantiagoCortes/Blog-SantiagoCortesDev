@@ -58,6 +58,8 @@ export default {
         arenq: ['Arenq'],
         beckman: ['Beckman'],
         mova: ['Mova'],
+        SourceSansProBlack: ['SourceSansProBlack'],
+        SourceSansProLight: ['SourceSansProLight'],
         overcameBold: ['Overcame Bold'],
         overcameOutline: ['Overcame Outline'],
         poppins: ['Poppins', 'sans-serif'],

@@ -41,7 +41,7 @@ const Hero = () => {
               Hola! Soy{' '}
               <span
                 className="sm:text-eerieBlack sm:text-[90px] 
-                text-eerieBlack text-[50px] font-mova
+                text-eerieBlack text-[50px] font-SourceSansProLight
                 font-extrabold uppercase">
                 Santiago Cortés
               </span>

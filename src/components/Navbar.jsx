@@ -20,18 +20,18 @@ const Navbar = () => {
             setActive('');
             window.scrollTo(0, 0);
           }}>
-          {/* <img
+          <img
             src={logo} // your logo comes here
             alt="logo"
-            className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
-          /> */}
+            className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] object-contain"
+          />
 
           {/* if you have text you want besides your logo it comes here.
           Otherwise delete this if you don't need it. */}
           <img
             src={logotext}
-            alt="logo"
-            className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
+            alt="logotext"
+            className="sm:w-[200px] sm:h-[90px] w-[85px] h-[85px] -ml-[-1rem] object-contain"
           />
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
@@ -40,7 +40,7 @@ const Navbar = () => {
               key={nav.id}
               className={`${
                 active === nav.title ? 'text-french' : 'text-eerieBlack'
-              } hover:text-taupe text-[21px] font-medium font-mova 
+              } hover:text-taupe text-[21px] font-medium font-SourceSansProLight 
                 uppercase tracking-[3px] cursor-pointer nav-links`}
               onClick={() => setActive(nav.title)}>
               <a href={`#${nav.id}`}>{nav.title}</a>
@@ -73,8 +73,12 @@ const Navbar = () => {
                     key={nav.id}
                     className={`${
                       active === nav.title ? 'text-french' : 'text-eerieBlack'
-                    } text-[88px] font-bold font-arenq 
+                    } text-[48px] font-bold font-SourceSansProLight 
                       uppercase tracking-[1px] cursor-pointer`}
+                    style={{
+                      '@media (max-width: 768px)': {
+                      }
+                    }}
                     onClick={() => {
                       setToggle(!toggle);
                       setActive(nav.title);
