@@ -1,5 +1,5 @@
 import bwmap from './backgrounds/Electronics.png';
-import nairobi from './backgrounds/nairobi.png';
+import tecnologics from './backgrounds/tecnologics.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/Electronics.png';
 
@@ -23,20 +23,25 @@ import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 
-import css from './tech/css.png';
+// iconos
+// import { DiLinux } from 'react-icons';
+
+
+
+import linux from './tech/linux.png';
 import docker from './tech/docker.png';
-import figma from './tech/figma.png';
+import server from './tech/server.png';
 import git from './tech/git.png';
-import html from './tech/html.png';
-import javascript from './tech/javascript.png';
-import nodejs from './tech/nodejs.png';
-import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
-import graphql from './tech/graphql.png';
-import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
+import devops from './tech/devops.png';
+import Cloudformation from './tech/Cloudformation.png';
+import AWS from './tech/AWS.png';
+import sqlserver from './tech/sqlserver.png';
+import mongodb from './tech/mongodb.png';
+import python from './tech/python.png';
+// import typescript from './tech/typescript.png';
+import jira from './tech/jira.png';
+// import postgresql from './tech/postgresql.png';
+// import rubyrails from './tech/rubyrails.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -52,7 +57,7 @@ import space from './projects/space-hub.png';
 
 export {
   bwmap,
-  nairobi,
+  tecnologics,
   whiteabstract,
   worldmap,
   logo,
@@ -72,20 +77,21 @@ export {
   resume,
   send,
   sendHover,
-  css,
+  // DiLinux,
+  linux,
   docker,
-  figma,
+  server,
   git,
-  graphql,
-  html,
-  javascript,
-  nodejs,
-  postgresql,
-  rubyrails,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
+  jira,
+  devops,
+  Cloudformation,
+  AWS,
+  // postgresql,
+  // rubyrails,
+  sqlserver,
+  mongodb,
+  python,
+  // typescript,
   komikult,
   leaderboard,
   math,

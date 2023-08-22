@@ -58,11 +58,11 @@ const About = () => {
         <p>Espero que mi portafolio sea de utilidad para ti en tu búsqueda de soluciones tecnológicas eficientes y de alta calidad. Si tienes alguna pregunta o deseas más información, no dudes en contactarme.</p>
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      {/* <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
