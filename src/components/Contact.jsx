@@ -60,93 +60,62 @@ const Contact = () => {
   };
 
   return (
-    <div
-      className="-mt-[8rem] xl:flex-row flex-col-reverse 
-      flex gap-10 overflow-hidden">
+    <div className="-mt-[8rem] xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] bg-jet p-8 rounded-2xl">
-        {/* <p className={styles.sectionSubText}>Get in touch</p> */}
         <h3 className={styles.sectionHeadTextLight}>Contacto.</h3>
 
-        <form
-          ref={formRef}
-          onSubmit={handleSubmit}
-          className="mt-10 flex flex-col gap-6 font-poppins">
-          <label className="flex flex-col">
-            <span className="text-timberWolf font-medium mb-4">Nombre</span>
-            <input
-              type="text"
-              name="name"
-              value={form.name}
-              onChange={handleChange}
-              placeholder="¿Cúal es su nombre?"
-              className="bg-eerieBlack py-4 px-6
-              placeholder:text-taupe
-              text-timberWolf rounded-lg outline-none
-              border-none font-medium"
-            />
-          </label>
-          <label className="flex flex-col">
-            <span className="text-timberWolf font-medium mb-4">Email</span>
-            <input
-              type="email"
-              name="email"
-              value={form.email}
-              onChange={handleChange}
-              placeholder="¿Cúal es su mail?"
-              className="bg-eerieBlack py-4 px-6
-              placeholder:text-taupe
-              text-timberWolf rounded-lg outline-none
-              border-none font-medium"
-            />
-          </label>
-          <label className="flex flex-col">
-            <span className="text-timberWolf font-medium mb-4">
-              Mensaje
-            </span>
-            <textarea
-              rows="7"
-              name="message"
-              value={form.message}
-              onChange={handleChange}
-              placeholder="Escriba su mensaje message"
-              className="bg-eerieBlack py-4 px-6
-              placeholder:text-taupe
-              text-timberWolf rounded-lg outline-none
-              border-none font-medium resize-none"
-            />
-          </label>
+        {/* Formulario y campos de entrada del formulario, como antes */}
+        
+        {/* Agregar enlace a LinkedIn */}
+        <div className="my-4">
+          <a
+            href="https://www.linkedin.com/in/luis-santiago-cort%C3%A9s-553687107/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-timberWolf font-medium hover:underline">
+            Visita mi perfil en LinkedIn
+          </a>
+          <br />
+          <a
+            href="https://platzi.com/p/SantiagoCortesDev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-timberWolf font-medium hover:underline">
+            Visita mi perfil en Platzi
+          </a>
+          <br />
+          <a
+            href="https://github.com/LuisSantiagoCortes"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-timberWolf font-medium hover:underline">
+            Visita mi perfil en GitHub
+          </a>
+          {/* Agrega más enlaces de blogs según sea necesario */}
+        </div>
+        
 
-          <button
-            type="submit"
-            className="live-demo flex justify-center sm:gap-4 
-            gap-3 sm:text-[20px] text-[16px] text-timberWolf 
-            font-bold font-beckman items-center py-5
-            whitespace-nowrap sm:w-[130px] sm:h-[50px] 
-            w-[100px] h-[45px] rounded-[10px] bg-night 
-            hover:bg-battleGray hover:text-eerieBlack 
-            transition duration-[0.2s] ease-in-out"
-            onMouseOver={() => {
-              document
-                .querySelector('.contact-btn')
-                .setAttribute('src', sendHover);
-            }}
-            onMouseOut={() => {
-              document.querySelector('.contact-btn').setAttribute('src', send);
-            }}>
-            {loading ? 'Enviando' : 'Enviar'}
-            <img
-              src={send}
-              alt="send"
-              className="contact-btn sm:w-[26px] sm:h-[26px] 
-              w-[23px] h-[23px] object-contain"
-            />
-          </button>
-        </form>
+    
+        
+        {/* Hipervínculo de agradecimientos */}
+        <div className="my-4">
+          <a
+            href="https://github.com/shaqdeff/Portfolio-Template"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-timberWolf font-medium hover:underline">
+            Agradecimientos a Shaqdeff
+          </a>
+        </div>
+    
+
       </motion.div>
     </div>
+    
   );
+  
 };
 
 export default SectionWrapper(Contact, 'contact');

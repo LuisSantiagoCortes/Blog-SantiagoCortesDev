@@ -1,6 +1,6 @@
 import bwmap from './backgrounds/Electronics.png';
 import tecnologics from './backgrounds/tecnologics.png';
-import whiteabstract from './backgrounds/white-abstract.png';
+import whiteabstract from './backgrounds/Conexion.png';
 import worldmap from './backgrounds/Electronics.png';
 
 import logo from './logo/logo-scd.png';
