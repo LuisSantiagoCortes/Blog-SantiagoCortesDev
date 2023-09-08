@@ -43,10 +43,10 @@ import jira from './tech/jira.png';
 // import postgresql from './tech/postgresql.png';
 // import rubyrails from './tech/rubyrails.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import companilogo from './company/companilogo.png';
+// import dcc from './company/dcc.png';
+// import kelhel from './company/kelhel.png';
+// import microverse from './company/microverse.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -98,8 +98,8 @@ export {
   movie,
   nyeusi,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  companilogo,
+  // dcc,
+  // kelhel,
+  // microverse,
 };

@@ -23,10 +23,10 @@ import {
   movie,
   nyeusi,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  companilogo,
+  // dcc,
+  // kelhel,
+  // microverse,
 } from '../assets';
 
 export const navLinks = [
@@ -124,32 +124,25 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Consultor Junior',
+    company_name: 'SGV Software',
+    icon: companilogo,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Jul 2021 - Abr 2023',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Ingeniero Mecatronico',
+    company_name: 'Trabajador Independiente',
+    icon: companilogo,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Ene 2020 - Jun 2021',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Estudiante en prácticas de ingeniería',
+    company_name: 'BuenCafe liofilizado de Colombia',
+    icon: companilogo,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Ene 2019 - Jun 2019',
   },
 ];
 

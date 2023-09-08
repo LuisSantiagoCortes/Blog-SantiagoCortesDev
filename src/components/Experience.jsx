@@ -56,10 +56,10 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
-          What I've done so far
+          Mi trayectoria hasta el momento
         </p>
         <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
-          Work Experience.
+          Experiencia.
         </h2>
       </motion.div>
 
@@ -95,7 +95,7 @@ const Experience = () => {
               className="live-demo flex justify-between 
               sm:text-[18px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-3 pr-3 
-              whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
+              whitespace-nowrap gap-1 sm:w-[200px] sm:h-[58px] 
               w-[125px] h-[46px] rounded-[10px] bg-jetLight 
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
@@ -116,7 +116,7 @@ const Experience = () => {
                   .querySelector('.download-btn')
                   .setAttribute('src', download);
               }}>
-              MY RESUME
+                Hoja de Vida
               <img
                 src={download}
                 alt="download"
