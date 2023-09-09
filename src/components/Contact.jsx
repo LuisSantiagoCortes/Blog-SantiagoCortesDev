@@ -65,11 +65,16 @@ const Contact = () => {
         variants={slideIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] bg-jet p-8 rounded-2xl">
         <h3 className={styles.sectionHeadTextLight}>Contacto.</h3>
-
+  
         {/* Formulario y campos de entrada del formulario, como antes */}
         
         {/* Agregar enlace a LinkedIn */}
-        <div className="my-4">
+        <div className="my-4 flex items-center">
+          <img
+            src="../src/assets/contact/Linkedin.png"
+            alt="LinkedIn"
+            className="w-6 h-6 mr-5"
+          />
           <a
             href="https://www.linkedin.com/in/luis-santiago-cort%C3%A9s-553687107/"
             target="_blank"
@@ -77,44 +82,66 @@ const Contact = () => {
             className="text-timberWolf font-medium hover:underline">
             Visita mi perfil en LinkedIn
           </a>
-          <br />
-          <a
-            href="https://platzi.com/p/SantiagoCortesDev/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-timberWolf font-medium hover:underline">
-            Visita mi perfil en Platzi
-          </a>
-          <br />
-          <a
-            href="https://github.com/LuisSantiagoCortes"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-timberWolf font-medium hover:underline">
-            Visita mi perfil en GitHub
-          </a>
-          {/* Agrega más enlaces de blogs según sea necesario */}
         </div>
-        
+  
+        <div className="my-4">
+          <div className="flex items-center">
+            <img
+              src="../src/assets/contact/GitHub.png"
+              alt="GitHub"
+              className="w-6 h-6 mr-5"
+            />
+            <a
+              href="https://github.com/LuisSantiagoCortes"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-timberWolf font-medium hover:underline">
+              Visita mi perfil en GitHub
+            </a>
+          </div>
+          {/* Agrega más enlaces de blogs con imágenes según sea necesario */}
+        </div>
 
-    
+        <div className="my-4">
+          <div className="flex items-center">
+            <img
+              src="../src/assets/contact/link_icon.png"
+              alt="Blog"
+              className="w-6 h-6 mr-5"
+            />
+            <a
+              href="https://platzi.com/p/SantiagoCortesDev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-timberWolf font-medium hover:underline">
+              Visita mi perfil en Platzi
+            </a>
+          </div>
+        </div>
+
+        
         
         {/* Hipervínculo de agradecimientos */}
         <div className="my-4">
-          <a
-            href="https://github.com/shaqdeff/Portfolio-Template"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-timberWolf font-medium hover:underline">
-            Agradecimientos a Shaqdeff
-          </a>
+          <div className="flex items-center">
+            <img
+              src="../src/assets/contact/Agradecimientos.png"
+              alt="LinkedIn"
+              className="w-6 h-6 mr-5"
+            />
+            <a
+              href="https://github.com/shaqdeff/Portfolio-Template"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-timberWolf font-medium hover:underline">
+              Agradecimientos a Shaqdeff
+            </a>
+          </div>
         </div>
-    
-
       </motion.div>
     </div>
-    
   );
+  
   
 };
 
