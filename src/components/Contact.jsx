@@ -71,7 +71,7 @@ const Contact = () => {
         {/* Agregar enlace a LinkedIn */}
         <div className="my-4 flex items-center">
           <img
-            src="../src/assets/contact/Linkedin.png"
+            src="/src/assets/contact/Linkedin.png"
             alt="LinkedIn"
             className="w-6 h-6 mr-5"
           />
@@ -87,7 +87,7 @@ const Contact = () => {
         <div className="my-4">
           <div className="flex items-center">
             <img
-              src="../src/assets/contact/GitHub.png"
+              src="/src/assets/contact/GitHub.png"
               alt="GitHub"
               className="w-6 h-6 mr-5"
             />
@@ -105,7 +105,7 @@ const Contact = () => {
         <div className="my-4">
           <div className="flex items-center">
             <img
-              src="../src/assets/contact/link_icon.png"
+              src="/src/assets/contact/link_icon.png"
               alt="Blog"
               className="w-6 h-6 mr-5"
             />
@@ -125,7 +125,7 @@ const Contact = () => {
         <div className="my-4">
           <div className="flex items-center">
             <img
-              src="../src/assets/contact/Agradecimientos.png"
+              src="/src/assets/contact/Agradecimientos.png"
               alt="LinkedIn"
               className="w-6 h-6 mr-5"
             />

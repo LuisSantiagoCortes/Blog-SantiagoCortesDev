@@ -232,6 +232,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
+    demo: '/index_copy.html',
     // image: movie,
     // repo: 'https://github.com/shaqdeff/Movie-Metro',
     // demo: 'https://movie-metro.netlify.app/',
