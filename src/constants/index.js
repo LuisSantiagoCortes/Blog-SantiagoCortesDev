@@ -27,7 +27,7 @@ import {
   // dcc,
   // kelhel,
   // microverse,
-} from '../assets';
+} from '/src/assets';
 
 export const navLinks = [
   {

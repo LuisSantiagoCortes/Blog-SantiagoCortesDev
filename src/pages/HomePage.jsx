@@ -4,7 +4,7 @@ import {
   Contact,
   Experience,
   Hero,
-  Navbar,
+  // Navbar,
   Tech,
   Projects,
 } from '/src/components';
@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <div className="relative z-0">
       <div>
-        <Navbar />
+        {/* <Navbar /> */}
         <Hero />
       </div>
 

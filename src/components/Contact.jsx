@@ -4,7 +4,13 @@ import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-import { send, sendHover } from '../assets';
+// import { send, sendHover } from '../assets';
+
+import Linkedin from '/src/assets/contact/Linkedin.png'; 
+import GitHub from '/src/assets/contact/GitHub.png';
+import Platzi from '/src/assets/contact/Platzi.png'; 
+import agradecimientos from '/src/assets/contact/Agradecimientos.png';
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -71,7 +77,7 @@ const Contact = () => {
         {/* Agregar enlace a LinkedIn */}
         <div className="my-4 flex items-center">
           <img
-            src="/src/assets/contact/Linkedin.png"
+            src={Linkedin}
             alt="LinkedIn"
             className="w-6 h-6 mr-5"
           />
@@ -87,7 +93,7 @@ const Contact = () => {
         <div className="my-4">
           <div className="flex items-center">
             <img
-              src="/src/assets/contact/GitHub.png"
+              src={GitHub}
               alt="GitHub"
               className="w-6 h-6 mr-5"
             />
@@ -105,8 +111,8 @@ const Contact = () => {
         <div className="my-4">
           <div className="flex items-center">
             <img
-              src="/src/assets/contact/link_icon.png"
-              alt="Blog"
+              src={Platzi}
+              alt="Platzi"
               className="w-6 h-6 mr-5"
             />
             <a
@@ -125,8 +131,8 @@ const Contact = () => {
         <div className="my-4">
           <div className="flex items-center">
             <img
-              src="/src/assets/contact/Agradecimientos.png"
-              alt="LinkedIn"
+              src={agradecimientos}
+              alt="Agradecimientos"
               className="w-6 h-6 mr-5"
             />
             <a
