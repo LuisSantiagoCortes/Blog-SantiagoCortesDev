@@ -38,7 +38,7 @@ const Hero = () => {
           <div>
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
-              Hola! Soy{' '}
+              ¡Hola! Soy{' '}
               <span
                 className="sm:text-eerieBlack sm:text-[90px] 
                 text-eerieBlack text-[50px] font-SourceSansProLight
